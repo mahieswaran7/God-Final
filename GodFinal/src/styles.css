@@ -1,0 +1,219 @@
+/* You can add global styles to this file, and also import other style files */
+button:focus,
+button:hover,
+ngb-rating:focus {
+	outline: none!important;
+	box-shadow: none!important;
+  text-decoration: none!important;
+}
+.main-banner.slick-slider .slick-track,
+.main-banner.slick-slider .slick-list {
+  display: flex;
+}
+
+.group-form .form-control-custom,
+.group-form .form-control-custom:not(:last-child) {
+  border-radius: 50px !important;
+}
+
+.banner-tabs .tab-pane .row {
+  margin: 0 -10px;
+}
+
+.banner-tabs .tab-content {
+  padding-bottom: calc(20px - 1rem);
+}
+
+.banner-tabs label.submit+button {
+  margin-bottom: 1rem;
+}
+
+.banner-tabs .custom-select {
+  margin: 0;
+}
+
+.banner-tabs .form-group label.submit+button {
+  margin-bottom: 0;
+}
+
+.section-padding.section {
+  padding-bottom: 50px;
+}
+.coming-soon .coming-soon-text .counter .countdown {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+}
+.coming-soon .coming-soon-text .counter .countdown .measurements {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  max-width: 125px;
+  height: 125px;
+  display: block;
+  background-color: #bf9b79;
+  color: #fff;
+  border-radius: 0px;
+  margin: 0 15px 30px;
+  flex: none!important;
+  padding: 20px 0;
+}
+.coming-soon .coming-soon-text .counter .countdown .measurements>.measurements-number {
+font-size: 50px;
+  line-height: 1;
+  font-weight: 600;
+  margin: 0;
+}
+.coming-soon .coming-soon-text .counter .countdown .measurements .measurements-text{
+  color: #fff;
+  margin: 0;
+}
+.coming-soon .coming-soon-text .counter .countdown .measurements .divider{
+  display: none;
+}
+/* Pagination */
+pagination-template .ngx-pagination {
+	margin-top: 0px;
+	justify-content: center;
+	margin-bottom: 0;
+	display: flex;
+	padding-left: 0;
+	list-style: none;
+	border-radius: .25rem;
+}
+pagination-template .ngx-pagination li {
+	margin: 0;
+	position: relative;
+}
+pagination-template .ngx-pagination li.pagination-next,
+pagination-template .ngx-pagination li.pagination-previous {
+	padding: 0;
+	display: block;
+}
+pagination-template .ngx-pagination li.pagination-next span,
+pagination-template .ngx-pagination li.pagination-previous span,
+pagination-template .ngx-pagination li a {
+	background-color: #fff;
+    font-weight: 400;
+    padding: 8px 20px!important;
+    margin: 0;
+    position: relative;
+    margin-left: 0;
+    display: block;
+    font-size: 14px;
+    line-height: 1.5;
+    border: 2px solid #eee;
+    color: #020202;
+    border-radius: 0;
+}
+pagination-template .ngx-pagination li.current {
+	border-radius: 0px;
+	color: #fff;
+	border: 1px solid #bf9b79;
+	background-color: #bf9b79;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 8px 20px!important;
+	margin: 0;
+	position: relative;
+	display: block;
+    line-height: 1.5;
+}
+pagination-template .ngx-pagination li.pagination-next::after,
+pagination-template .ngx-pagination li.pagination-next a:after,
+pagination-template .ngx-pagination li.pagination-previous a::before,
+pagination-template .ngx-pagination li.pagination-previous::before {
+	display: none!important;
+}
+pagination-template .ngx-pagination li.pagination-previous a,
+pagination-template .ngx-pagination li.pagination-previous span{
+  border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+pagination-template .ngx-pagination li.pagination-next a,
+pagination-template .ngx-pagination li.pagination-next span{
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.pagination_layout{
+	margin-top: -30px;
+}
+.blog-details .post .post-wrapper .blog-meta .post-meta-box .post-categories a::after{
+  content: ', ';
+}
+.blog-details .post .post-wrapper .blog-meta .post-meta-box .post-categories a:last-child::after{
+  display: none;
+}
+.comment-box .comments li article .comment-avatar{
+  width: 80px;
+}
+.sidebar_wrap .sidebar .sidebar_widgets .popular_post li:last-child{
+  margin-bottom: 0;
+}
+.sidebar_wrap .sidebar .sidebar_widgets .tags{
+  margin-bottom: -10px;
+}
+.our_articles .post .post-wrapper .post-img{
+  height: 250px;
+}
+.our_articles .post .post-wrapper .post-img img {
+  height: 100%;
+  object-fit: cover;
+}
+/* Range slider */
+.ngx-slider .ngx-slider-bar-wrapper{
+  padding-top: 20px!important;
+}
+.ngx-slider .ngx-slider-bubble{
+  padding: 1px 5px!important;
+  color: #ffffff!important;
+  font-size: 12px!important;
+  background-color: #bf9b79;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.ngx-slider .ngx-slider-bubble::after{
+  position: absolute;
+  display: block;
+  content: "";
+  bottom: -6px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -3px;
+  overflow: hidden;
+  border: 3px solid transparent;
+  border-top-color: #bf9b79;
+}
+.ngx-slider .ngx-slider-bar{
+  background: #eee!important;
+  height: 4px!important;
+  border-radius: 4px!important;
+}
+.ngx-slider .ngx-slider-selection{
+  background: #bf9b79!important;
+  border-radius: 0px!important;
+}
+.ngx-slider .ngx-slider-pointer:after {
+  display: none!important;
+}
+.ngx-slider .ngx-slider-pointer{
+  width: 15px!important;
+    height: 15px!important;
+    top: -2px!important;
+    border: 0px solid #bf9b79;
+    background-color: #bf9b79!important;
+    box-shadow: 0 1px 3px rgb(0 0 255 / 30%);
+}
+.listing-details-inner .listing-meta-sec .listing-testimonial .tesimonial-item .testimonial-author .author-img{
+  width: 86px;
+  height: 86px;
+}
+.htmltext p:last-child{
+  margin-bottom: 0;
+}
+.hotel-grid .hotel-grid-wrapper.car-grid .image-sec img{
+  object-fit: cover;
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "id":1,
+        "image":"assets/images/flight-2.jpg",
+        "title":"Let's Discover the <span class='text-custom-blue'>world</span> together!"
+    },
+    {
+        "id":2,
+        "image":"assets/images/hotel-1.jpg",
+        "title":"Finest Luxury <span class='text-custom-blue'>Hotels</span> in Moritz!"
+    }
+]

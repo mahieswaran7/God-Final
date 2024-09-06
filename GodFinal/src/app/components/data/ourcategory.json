@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "title":"My Konos",
+        "image":"assets/images/tour-block_4.jpg",
+        "text":"1150 Offers",
+        "link":"/hotel-grid"
+    },
+    {
+        "id":2,
+        "title":"Naxos",
+        "image":"assets/images/tour-block_2.jpg",
+        "text":"1100 Locations",
+        "link":"/hotel-grid"
+    },
+    {
+        "id":3,
+        "title":"Acropolis",
+        "image":"assets/images/tour-block_3.jpg",
+        "text":"1250 Locations",
+        "link":"/hotel-grid"
+    },
+    {
+        "id":4,
+        "title":"Rodos",
+        "image":"assets/images/tour-block_1.jpg",
+        "text":"1550 Locations",
+        "link":"/hotel-grid"
+    }
+]
